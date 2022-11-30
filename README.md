@@ -63,11 +63,17 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  Error on console - error 500 (internal server error)
+  How to fix the error - fix name error on line 10 
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  Error on console - src/components/ToyCard.js:21 syntax error
+  How to fix the error - Render the code to fix the syntax error
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+Error on console - error 404 not found ActionController::RoutingError (No route matches [DELETE] "/toys/17"):
+How to fix the error - adding the route for the destroy method
